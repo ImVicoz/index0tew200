@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3a4454;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%2392a6ac' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.contenedor{
+    color: #ffffff;
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.contenedor section article img{
+    width: 100%;
+    height: auto;
+}
+.logotipo img{
+    width: 100%;
+    height: auto;
+}
+header{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+nav ul{
+   
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 50px;
+}
+nav ul li a{
+    float: left;
+    background: #0499be;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.img{
+    width: 100%;
+    
+}
+article, aside{
+    float: right;
+}
+article{
+    background: rgb(157, 189, 189, 0.2);
+    width: 48.5%;
+    height: auto;
+    padding: 20px;
+    margin-right: 1.5%;
+    box-sizing: border-box;
+}
+aside{
+    color: #ffffff;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    float: left;
+    clear: both;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+    background: #0a1925;
+    color: #ffffff;
+    padding: 20px
+    
+}
